@@ -82,7 +82,15 @@ Comes handy if you want to change branch without committing current stuff.
 
 ## Pushing tag
 
-`git push --follow-tags`
+`git push --tags`
+
+## Deleting local tag
+
+`git tag -d <tag>`
+
+## Deleting remote tag
+
+`git push origin :refs/tags/<tag>`
 
 ## Changing commit message
 

@@ -80,6 +80,10 @@ Comes handy if you want to change branch without committing current stuff.
 
 `git tag -a <version, i.e. 1.0.0> -m '<description'`
 
+or shorter,
+
+`git tag <version>`
+
 ## Pushing tag
 
 `git push --tags`
